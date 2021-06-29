@@ -10,13 +10,20 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
+:wq
+|2,0,1624942731,,"wq"
 : wq
 |2,0,1617967296,," wq"
 :WQ
 |2,0,1617961849,,"WQ"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1618566693,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -25,235 +32,271 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
+""0	CHAR	0
 	3
-|3,1,36,0,1,0,1617273667,"3"
+|3,1,0,0,1,0,1618566740,"3"
+"-	CHAR	0
+	3
+|3,0,36,0,1,0,1617273667,"3"
 
 # File marks:
-'0  3  0  ~/r1
-|4,48,3,0,1617967296,"~/r1"
-'1  1  0  ~/Downloads
-|4,49,1,0,1617961865,"~/Downloads"
-'2  3  0  /d/practise/.gitignore
-|4,50,3,0,1617273729,"/d/practise/.gitignore"
-'3  3  0  /d/practise/.gitignore
-|4,51,3,0,1617273077,"/d/practise/.gitignore"
-'4  2  0  /d/practise/.gitignore
-|4,52,2,0,1617272459,"/d/practise/.gitignore"
-'5  2  0  /d/practise/.gitignore
-|4,53,2,0,1617272459,"/d/practise/.gitignore"
-'6  2  0  /d/practise/.gitignore
-|4,54,2,0,1617272459,"/d/practise/.gitignore"
-'7  2  0  /d/practise/.gitignore
-|4,55,2,0,1617272459,"/d/practise/.gitignore"
+'0  1  1  ~/DevOPSProject/ls
+|4,48,1,1,1624942731,"~/DevOPSProject/ls"
+'1  1  0  ~/DevOPSProject/tiru.cpp
+|4,49,1,0,1624942639,"~/DevOPSProject/tiru.cpp"
+'2  1  0  /c/raki/IntelliQIt/file1.txt
+|4,50,1,0,1624866540,"/c/raki/IntelliQIt/file1.txt"
+'3  1  0  /c/raki/.gitignore
+|4,51,1,0,1624865117,"/c/raki/.gitignore"
+'4  1  0  ~/Ansible_playbooks/restart.yml
+|4,52,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+'5  3  0  ~/r1
+|4,53,3,0,1617967296,"~/r1"
+'6  1  0  ~/Downloads
+|4,54,1,0,1617961865,"~/Downloads"
+'7  3  0  /d/practise/.gitignore
+|4,55,3,0,1617273729,"/d/practise/.gitignore"
 '8  3  0  /d/practise/.gitignore
-|4,56,3,0,1617271915,"/d/practise/.gitignore"
-'9  3  0  /d/practise/.gitignore
-|4,57,3,0,1617271915,"/d/practise/.gitignore"
+|4,56,3,0,1617273077,"/d/practise/.gitignore"
+'9  2  0  /d/practise/.gitignore
+|4,57,2,0,1617272459,"/d/practise/.gitignore"
 
 # Jumplist (newest first):
+-'  1  1  ~/DevOPSProject/ls
+|4,39,1,1,1624942731,"~/DevOPSProject/ls"
+-'  1  0  ~/DevOPSProject/tiru.cpp
+|4,39,1,0,1624942639,"~/DevOPSProject/tiru.cpp"
+-'  1  0  ~/DevOPSProject/tiru.cpp
+|4,39,1,0,1624942639,"~/DevOPSProject/tiru.cpp"
+-'  1  0  /c/raki/IntelliQIt/file1.txt
+|4,39,1,0,1624866540,"/c/raki/IntelliQIt/file1.txt"
+-'  1  0  /c/raki/IntelliQIt/file1.txt
+|4,39,1,0,1624866540,"/c/raki/IntelliQIt/file1.txt"
+-'  1  0  /c/raki/IntelliQIt/file1.txt
+|4,39,1,0,1624866540,"/c/raki/IntelliQIt/file1.txt"
+-'  1  0  /c/raki/IntelliQIt/file1.txt
+|4,39,1,0,1624866540,"/c/raki/IntelliQIt/file1.txt"
+-'  1  0  /c/raki/.gitignore
+|4,39,1,0,1624865117,"/c/raki/.gitignore"
+-'  1  0  /c/raki/.gitignore
+|4,39,1,0,1624865117,"/c/raki/.gitignore"
+-'  1  0  /c/raki/.gitignore
+|4,39,1,0,1624865117,"/c/raki/.gitignore"
+-'  1  0  /c/raki/.gitignore
+|4,39,1,0,1624865117,"/c/raki/.gitignore"
+-'  1  0  /c/raki/.gitignore
+|4,39,1,0,1624865117,"/c/raki/.gitignore"
+-'  1  0  /c/raki/.gitignore
+|4,39,1,0,1624865117,"/c/raki/.gitignore"
+-'  1  0  /c/raki/.gitignore
+|4,39,1,0,1624865117,"/c/raki/.gitignore"
+-'  1  0  /c/raki/.gitignore
+|4,39,1,0,1624865117,"/c/raki/.gitignore"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
+-'  1  0  ~/Ansible_playbooks/restart.yml
+|4,39,1,0,1618566908,"~/Ansible_playbooks/restart.yml"
 -'  3  0  ~/r1
 |4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  3  0  ~/r1
+|4,39,3,0,1617967296,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
+-'  1  0  ~/r1
+|4,39,1,0,1617967197,"~/r1"
 -'  1  0  ~/r1
 |4,39,1,0,1617967197,"~/r1"
 -'  1  0  ~/Downloads
 |4,39,1,0,1617961865,"~/Downloads"
 -'  1  0  ~/Downloads
 |4,39,1,0,1617961865,"~/Downloads"
--'  3  0  /d/practise/.gitignore
-|4,39,3,0,1617273729,"/d/practise/.gitignore"
--'  3  0  /d/practise/.gitignore
-|4,39,3,0,1617273729,"/d/practise/.gitignore"
--'  3  0  /d/practise/.gitignore
-|4,39,3,0,1617273729,"/d/practise/.gitignore"
--'  3  0  /d/practise/.gitignore
-|4,39,3,0,1617273729,"/d/practise/.gitignore"
--'  3  0  /d/practise/.gitignore
-|4,39,3,0,1617273077,"/d/practise/.gitignore"
--'  3  0  /d/practise/.gitignore
-|4,39,3,0,1617273077,"/d/practise/.gitignore"
--'  3  0  /d/practise/.gitignore
-|4,39,3,0,1617273077,"/d/practise/.gitignore"
--'  3  0  /d/practise/.gitignore
-|4,39,3,0,1617273077,"/d/practise/.gitignore"
--'  2  0  /d/practise/.gitignore
-|4,39,2,0,1617272711,"/d/practise/.gitignore"
--'  2  0  /d/practise/.gitignore
-|4,39,2,0,1617272711,"/d/practise/.gitignore"
--'  2  0  /d/practise/.gitignore
-|4,39,2,0,1617272711,"/d/practise/.gitignore"
--'  2  0  /d/practise/.gitignore
-|4,39,2,0,1617272711,"/d/practise/.gitignore"
--'  2  0  /d/practise/.gitignore
-|4,39,2,0,1617272711,"/d/practise/.gitignore"
--'  2  0  /d/practise/.gitignore
-|4,39,2,0,1617272711,"/d/practise/.gitignore"
--'  2  0  /d/practise/.gitignore
-|4,39,2,0,1617272711,"/d/practise/.gitignore"
--'  2  0  /d/practise/.gitignore
-|4,39,2,0,1617272711,"/d/practise/.gitignore"
--'  2  0  /d/practise/.gitignore
-|4,39,2,0,1617272459,"/d/practise/.gitignore"
--'  2  0  /d/practise/.gitignore
-|4,39,2,0,1617272459,"/d/practise/.gitignore"
--'  2  0  /d/practise/.gitignore
-|4,39,2,0,1617272459,"/d/practise/.gitignore"
--'  2  0  /d/practise/.gitignore
-|4,39,2,0,1617272459,"/d/practise/.gitignore"
--'  3  0  /d/practise/.gitignore
-|4,39,3,0,1617271915,"/d/practise/.gitignore"
--'  3  0  /d/practise/.gitignore
-|4,39,3,0,1617271915,"/d/practise/.gitignore"
--'  3  0  /d/practise/.gitignore
-|4,39,3,0,1617271915,"/d/practise/.gitignore"
--'  3  0  /d/practise/.gitignore
-|4,39,3,0,1617271915,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/.gitignore
-|4,39,1,0,1617271736,"/d/practise/.gitignore"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
--'  1  0  /d/practise/f1
-|4,39,1,0,1617264303,"/d/practise/f1"
+-'  1  0  ~/Downloads
+|4,39,1,0,1617961865,"~/Downloads"
+-'  1  0  ~/Downloads
+|4,39,1,0,1617961865,"~/Downloads"
+-'  1  0  ~/Downloads
+|4,39,1,0,1617961865,"~/Downloads"
 
 # History of marks within files (newest to oldest):
+
+> ~/DevOPSProject/ls
+	*	1624942726	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> ~/DevOPSProject/tiru.cpp
+	*	1624942633	0
+	"	1	0
+	^	1	0
+
+> /c/raki/IntelliQIt/file1.txt
+	*	1624866534	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> /c/raki/.gitignore
+	*	1624865104	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/Ansible_playbooks/restart.yml
+	*	1618566904	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
 
 > ~/r1
 	*	1617967287	0

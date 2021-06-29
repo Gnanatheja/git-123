@@ -1,40 +1,3 @@
-cd
-list
-pwd
-git config user.name "Rakesh"
-git config --global user.name "Rocky"
-git config --global user.email "
-clear
-pwd
-ls
-ls -a
-git init
-ls -a
-git add.
-pwd
-git add Robot
-git add SHOP
-git add brainsense
-clear
-ls
-git add.
-git status
-git add.
-git reset brainsense
-git status
-git commit "a"
-git commit -m "a"
-git log
-git log--oneline--
-git status
-gitlog --oneline
-clear
-touch file1 file2 file3 file4
-git status
-git add file1
-git status
-git add.
-.gitignore file2
 .gitignore file1
 clear
 pwd
@@ -451,3 +414,87 @@ git push -u origin main
 'git push --help'
 git push origin master -f
 clear
+touch f98
+ls
+git add .
+git commit -m"c"
+git status
+clear
+git remote add origin https://github.com/Gnanatheja/Rakesh.git
+git branch -M main
+git push -u origin main
+git push 
+git clone https://github.com/intelliqittrainings/Ansible_playbooks.git
+cd Downloads/
+pwd
+ls
+vim Ansible_playbooks
+exit
+cd .
+cd ..
+git config --global list
+git config -global list
+git config --global 
+clear
+git config global user.name rakesh
+git config user.name rakesh
+who
+whoami
+ssh -i "jenkins key.pem" ubuntu@ec2-15-206-212-66.ap-south-1.compute.amazonaws.com
+ec2-15-206-212-66.ap-south-1.compute.amazonaws.com
+ec2-15-206-212-66.ap-south-1.compute.amazonaws.com
+ssh -i "jenkins key.pem" ubuntu@ec2-15-206-212-66.ap-south-1.compute.amazonaws.com
+git congig --global list
+git config --global list
+git config --global username rakesh
+git config --global username. rakesh
+pwd
+cd .
+ls
+ls
+ls -a
+cd /c/raki
+pwd
+git init
+ls -a
+clear
+git status
+git add .
+git status
+git status
+git rm --catched f1
+git status
+git rm --catched f1
+git rm --cached f1
+clear
+pwd
+git commit -m "first Commit"
+git status
+git add .
+git commit -m "second Commit"
+git status
+cat > .gitignore
+git status
+clear
+git status
+vim .gitignore
+git branch
+git branch loans
+git branch
+git checkout loans
+pwd
+git branch -d loans
+git checkout master
+git branch -d loans
+git branch
+git branch loans
+git branch
+git checkout loans
+clear
+git clone https://github.com/thotamanikanta23/IntelliQIT.git
+ls
+cd IntelliQIt
+ls
+vim file1.txt
+ls
+git stash file.txt
